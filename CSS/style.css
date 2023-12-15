@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Avenir;
+}
+
+footer {
+    font-family: Avenir;
+}
+
+.pagetab {
+margin: 20px;
+
+}
+
+.Name {
+    margin: 20px;
+    position: fixed;
+    font-weight: bold;
+}
+
+#navigation {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    height: 122px;
+    background-color: white;
+
+   
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2px;
+    position: relative;
+}
+
+*:before,
+
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+li:after {
+    content: "";
+    position: absolute;
+    background-color: #F11355;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+
+li:hover:after {
+    width: 100%;
+
+}
+li:hover {
+    color: black;
+}
+
+
+
+a {
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: #F11355;
+    font-weight: 100;
+    position: relative;
+    display: flex;
+    
+}
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    display: flex;
+
+}
+.Interior {
+    position: relative;
+    top: 210px;
+    right: -750px;
+    z-index: 1;
+}
+.Design {
+    position: relative;
+    top: 280px;
+    right: -600px;
+    z-index: 1;
+}
+.UX {
+    position: relative;
+    top: 350px;
+    right: -290px;
+    z-index: 1;
+}
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: none;
+    height: 122px;
+    position: fixed;
+    z-index: 10;
+
+}
+
+.logo {
+ 
+    display: flex;
+    width: 62px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #8C9CB6;
+    
+
+
+}
+
+ .headline {
+    display: flex;
+    z-index: 1;
+ }  
+ 
+ .picture {
+    display: flex;
+    right: 50px;
+    top: -150px;
+    z-index: 1;
+ }
+ 
+ .Img02 {
+    display: flex;
+    position: relative;
+    bottom: 200px;
+    z-index: 0;
+
+ }
+
+ .Text1 {
+
+     
+     z-index: 1;
+     display: flex;
+     position: relative;
+     bottom: 430px;
+     right: -50px;
+
+ }
+.Text2 {
+    color: black;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    bottom: 410px;
+    right: -50px;
+    
+}
+
+.Text3 {
+    color: black;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    bottom: 380px;
+    right: -50px;
+}
+
+.Text4 {
+    color: black;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    right: -50px;
+}
+
+ h1 {
+    font-size: 60px;
+    font-weight: 800;
+ }
+
+ p1 {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2.2;
+    
+ }
+
+ p2 {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2.2;
+ }
+
+ p3 {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2.2;
+ }
+
+ .button01 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #8C9CB6;
+
+    display: flex;
+    position: relative;
+    bottom: 320px;
+    right: -550px;
+    
+ }
+a.button01:hover {
+    
+    -webkit-text-stroke:  black;
+    -webkit-text-stroke-width: 0.5px;
+
+}
+.headText01:hover {
+    
+    -webkit-text-stroke:  black;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+.allTitles {
+    display: none;
+    height: 50%px;
+
+}
+ .headText01 {
+    color: #778B8A;
+    position: relative;
+    display: flex;
+    right: -50px;
+    bottom: 200px;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 1;
+ }
+
+ .headText02 {
+    color: #CD9691;
+    position: relative;
+    display: flex;
+    right: -50px;
+    top: 1400px;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 1;
+ }
+
+ .headText03 {
+    color: #F4A2A8;
+    position: relative;
+    display: flex;
+    right: -50px;
+    bottom: -1970px;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 1;
+ }
+
+ #subTexts {
+    font-size: 25px;
+    font-weight: 450;
+    
+ }
+
+ .subTitle01 {
+    position: relative;
+    display: flex;
+    bottom: 300px;
+    right: -50px;
+    z-index: 1;
+ }
+
+ .Rec01 {
+    position: relative;
+    display: flex;
+    bottom: 430px;
+    z-index: 0;
+ }
+
+ .Rec02 {
+    position: relative;
+    display: flex;
+    bottom: 1180px;
+    z-index: 0;
+ }
+
+ .Rec03 {
+    position: relative;
+    display: flex;
+    bottom: 1600px;
+    z-index: 0;
+ }
+
+ .Img03 {
+    position: relative;
+    display: flex;
+    top: -1050px;
+    right: -50px;
+    z-index: 1;
+}
+
+
+.Img04 {
+    position: relative;
+    display: flex;
+    bottom: 1496px;
+    right: -500px;
+    z-index: 1;
+
+}
+
+.Img04 img, .Img03 img {
+    width: 338px;
+    height: 446px;
+    margin: 20;
+}
+
+.Img04 img:hover, .Img03 img:hover {
+    width: 348px;
+    height: 456px;
+}
+
+.Img05 {
+    position: relative;
+    display: flex;
+    bottom: 1430px;
+    right: -50px;
+    z-index: 1;
+}
+
+.Img06 {
+    position: relative;
+    display: flex;
+    top: -1809px;
+    right: -700px;
+    z-index: 1;
+}
+
+.Img07 {
+    position: relative;
+    display: flex;
+    top: -1770px;
+    right: -50px;
+    z-index: 1;
+}
+
+.Img08 {
+    position: relative;
+    display: flex;
+    bottom: 1550px;
+    z-index: 1;
+}
+
+.Img09 {
+    position: relative;
+    display: flex;
+    bottom: 1300px;
+    z-index: 1;
+}
+
+.subTitle02 {
+    position: relative;
+    display: flex;
+    bottom: -300px;
+    right: -50px;
+    z-index: 1;
+}
+
+.subTitle03 {
+    position: relative;
+    display: flex;
+    bottom: -800px;
+    right: -50px;
+    z-index: 1;
+}
+
+.bottomRectangle {
+    position: relative;
+    display: flex;
+    bottom: 1150px;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h5 {
+    font-size: 30px;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    position: relative;
+    bottom: 1380px;
+    right: -50px;
+    z-index: 1;
+}
+
+.fa {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    bottom: 1320px;
+    right: -50px;
+    
+    
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+h6 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: first baseline;
+    height: 20px;
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+}
+
+.bottomLogo {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: -1260px;
+    left: -20px;
+}
